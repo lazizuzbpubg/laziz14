@@ -1,0 +1,61 @@
+.header {
+    margin-top: 50px;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: auto;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.davron {
+    font-family: 'Rubik Distressed', "cursive";
+    font-weight: 400;
+    font-size: 24px;
+    font-style: italic;
+    color: black;
+    line-height: 24px;
+    transition: all 0.8s ease;
+}
+
+.davron:hover {
+    color: red;
+    text-decoration: underline;
+    padding-left: 10px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-li {
+    margin-left: 16px;
+}
+
+
+.nav-link {
+    font-family: 'Rubik Distressed', "cursive";
+    font-weight: 800;
+    font-size: 16px;
+    font-style: italic;
+    color: black;
+    line-height: 24px;
+    transition: all 0.9s ease;
+}
+
+.nav-link:hover {
+    color: blue;
+    text-decoration: underline;
+}
